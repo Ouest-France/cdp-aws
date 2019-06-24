@@ -1,4 +1,4 @@
-FROM alpine:3.7
+FROM alpine:3.10
 
 ARG VERSION_AWSCLI="1.16.184"
 
