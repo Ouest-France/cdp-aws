@@ -1,4 +1,4 @@
-FROM python:3.7.4-slim-stretch
+FROM python:3.7.9-slim-stretch
 
 ARG VERSION_AWSCLI="1.18.134"
 
