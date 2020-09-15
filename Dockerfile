@@ -1,6 +1,6 @@
-FROM python:2.7.16-slim-stretch
+FROM python:3.7.4-slim-stretch
 
-ARG VERSION_AWSCLI="1.16.198"
+ARG VERSION_AWSCLI="1.18.134"
 
 RUN pip install --upgrade awscli==$VERSION_AWSCLI
 
